@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Registro-Mi Web</title>
+    <link rel="stylesheet" type="text/css" href="Styless.css">
+</head>
+<body>
+<section class="form-registro">
+    <h2>Formulario de Registro de Datos</h2>
+    <form>
+        <div class="controls">
+        Nombre:<br>
+            <input  type="text" name="nombre" placeholder="Ingresa tu nombre" maxlength="50">
+        <br>
+        Apellido:<br>
+        <input  type="text" name="apellido" placeholder="Ingresa tu apellido" maxlength="50">
+        <br>
+        Sexo:<br>
+        <input  type="radio" id="opcion1" name="sexo" value="hombre">
+        <label for="opcion1">Hombre</label><br>
+        <input type="radio" id="opcion2" name="sexo" value="mujer">
+        <label for="opcion2">Mujer</label><br>
+        Correo electrónico: <br>
+        <input type="email" name="email" placeholder="Ingresa tu email" >
+        <br> <br>
+        </div>
+        <input type="checkbox" id="info" name="info" value="novedades" checked>
+        <label for="info">Deseo recibir información sobre novedades y ofertas</label> <br> <br>
+        <input type="checkbox" id="condiciones" name="condiciones" value="aceptado">
+        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label> <br> <br>
+        <input class="botons" type="submit" value="Enviar"> 
+    </form> 
+</section>
+</body> 
+</html>
