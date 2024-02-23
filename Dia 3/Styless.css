@@ -14,7 +14,7 @@ body {
    margin: auto;
    margin-top: 100px; 
    border-radius: 4px;
-   font-family: Arial;
+   font-family: Arial, Helvetica, sans-serif;
    color: white;
    box-shadow: 7px 13px 37px #000 ; 
 
@@ -42,9 +42,30 @@ body {
     background-color: #1f53c5;
     border: none;
     border-radius: 5px;
-
+    font-weight: bold;
 }
 
+**{
+    margin: 0;
+    padding:0;
+}
+
+
+.mensaje-exito {
+    background-color: #dff0d8; 
+    border: 5px solid #1904ff; 
+    color: #1904ff; 
+    padding: 10px; 
+    width: 300px; 
+    text-align: center; 
+    margin: 20px auto; 
+  } 
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+}
 
   
 

@@ -3,15 +3,15 @@
 <head>
     <title>Formulario de Registro-Mi Web</title>
     <link rel="stylesheet" type="text/css" href="Styless.css">
+    <meta charset="UTF-8">
 </head>
 <body>
 <section class="form-registro">
     <h2>Formulario de Registro de Datos</h2>
-    <form action=" " method="get">
+    <form action="envio.html" method="get">
         
-        <div class="controls">
         Nombre:<br>
-            <input  type="text" name="nombre" placeholder="Ingresa tu nombre" maxlength="50">
+         <input  type="text" name="nombre" placeholder="Ingresa tu nombre" maxlength="50">
         <br>
         Apellido:<br>
         <input  type="text" name="apellido" placeholder="Ingresa tu apellido" maxlength="50">
@@ -30,17 +30,21 @@
         <option value="Bucaramanga">Bucaramanga</option>
         <option value="Piedecuesta">Piedecuesta</option>
         <option value="Giron">Giron</option>
-        <option value="Floridablanca">Floridablanca
+        <option value="Floridablanca">Floridablanca 
         </option> 
-        </select>
+        </select> <br> <br>
         
         </div>
         <input type="checkbox" id="info" name="info" value="novedades" checked>
         <label for="info">Deseo recibir información sobre novedades y ofertas</label> <br> <br>
         <input type="checkbox" id="condiciones" name="condiciones" value="aceptado">
         <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label> <br> <br>
-        <input class="botons" type="submit" value="Enviar"> 
+        <input class="botons" type="submit" value="Enviar"> <br><br>
+        <footer><p>&copy; 2024 Jorge Mozo. Todos los derechos reservados a mi.</p>
+    </footer> 
+    
     </form> 
+
 </section>
 </body> 
 </html>
