@@ -36,5 +36,15 @@ body {
     margin-bottom: 10px; 
     font-family: Arial; 
 }
+.botons {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f53c5;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
   
 

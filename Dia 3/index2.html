@@ -7,7 +7,8 @@
 <body>
 <section class="form-registro">
     <h2>Formulario de Registro de Datos</h2>
-    <form>
+    <form action=" " method="get">
+        
         <div class="controls">
         Nombre:<br>
             <input  type="text" name="nombre" placeholder="Ingresa tu nombre" maxlength="50">
@@ -23,6 +24,16 @@
         Correo electrónico: <br>
         <input type="email" name="email" placeholder="Ingresa tu email" >
         <br> <br>
+        <label for="ciudad">Selecciona una ciudad:</label> <br>
+
+        <select id="ciudad" name="ciudad">
+        <option value="Bucaramanga">Bucaramanga</option>
+        <option value="Piedecuesta">Piedecuesta</option>
+        <option value="Giron">Giron</option>
+        <option value="Floridablanca">Floridablanca
+        </option> 
+        </select>
+        
         </div>
         <input type="checkbox" id="info" name="info" value="novedades" checked>
         <label for="info">Deseo recibir información sobre novedades y ofertas</label> <br> <br>
