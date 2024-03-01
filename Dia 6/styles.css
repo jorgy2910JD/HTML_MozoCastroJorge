@@ -1,0 +1,142 @@
+
+
+.fondito {
+ top: 500px;
+ left: 100px;
+ width: 1400px;
+ height: 800px;
+ opacity: 1;
+}
+.loguito {
+   width: 196px;
+   height: 44px;
+   top: 43px;
+   left: 43px;
+   background: url('./IMAGENES/LogoMetrolinea.png');
+   position: fixed; 
+
+}
+.tarjeta {
+    width: 894px;
+    height: 497px;
+    left: 157px;
+    top: 152px;
+    background: url('./IMAGENES/Metrolinea.png');
+    position: fixed;  
+    opacity: 1;
+    
+}
+.rect-oscuro {
+    top: 0px;
+    left: 1810px;
+    width: 110px;
+    height: 800px;
+    background: url('./IMAGENES/Rectangle\ 1.png');
+    position: fixed;
+    opacity: 1;
+}
+.flechita1 {
+    top: 13px;
+    left: 1855px;
+    width: 24px;
+    height: 14px;
+    background: url('./IMAGENES/flechaHaciaArriba.png');
+    position: fixed;
+    opacity: 1; 
+
+}
+.flechita2 {
+    top: 765px;
+    left: 1855px;
+    width: 24px;
+    height: 14px;
+    background: url('./IMAGENES/flechaHaciaAbajo.png');
+    position: fixed;
+    opacity: 1;
+}
+.cantidad {
+    top: 150px;
+    left: 1825px;
+    width: 84px;
+    height: 27px;
+    background: url('./IMAGENES/Cantidad.png');
+    position: fixed;
+    opacity: 1;
+}
+.menu {
+    top: 300px;
+    left: 1855px;
+    width: 23px;
+    height: 187px;
+    background: url('./IMAGENES/Menu.png');
+    position: fixed;
+    opacity: 1;
+}
+.carrito {
+    top: 35px;
+    left: 1740px;
+    width: 33px;
+    height: 32px;
+    background: url('./IMAGENES/IconComprar.png');
+    position: fixed; 
+}
+.lupa {
+    top: 35px;
+    left: 1630px;
+    width: 27px;
+    height: 27px;
+    background: url('./IMAGENES/Lupa.png');
+    position: fixed; 
+}
+.cuadroverde {
+    position: absolute;
+    border-radius: 5px;
+    width: 220px;
+    height: 120px;
+    background-color: rgb(166, 255, 0);
+    margin-top: 640px;
+    margin-left: 1530px;
+}
+.loguito2 {
+    top: 670px;
+    left: 1550px;
+    width: 12px;
+    height: 2px;
+    background: url('./IMAGENES/Logometro2.png');
+    position: fixed;
+}
+.comprar {
+    top: 720px;
+    left: 1595px;
+    width: 20px;
+    height: 2px;
+    background: url('./IMAGENES/Comprar.png');
+    position: fixed;
+    opacity: 1;
+}
+.botonTarjeta {
+    top: 20px;
+    left: 1100px; 
+    font-size: 170%;
+    font-family:'Arial';
+    color: black;
+    position: absolute; 
+} 
+.VerSaldo {
+    top: 20px;
+    left: 1400px; 
+    font-size: 170%;
+    font-family:'Arial';
+    color: black;
+    position: absolute; 
+} 
+.liniesita {
+    top: 80px;
+    left: 1120px;
+    font-size: 100%;
+    color: black;
+    position: absolute;
+}
+
+
+
