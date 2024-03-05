@@ -1,0 +1,26 @@
+body {
+    background-color:  antiquewhite; 
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 2em;
+    border: 0.5em solid black;
+    
+}
+.flex-container > div {
+    background-color: rgba(8, 150, 244, 0.336);
+    border-radius: 15%; 
+    width: 5em;
+    margin: 3em;
+    text-align: center;
+    line-height: 4em;
+    align-items: center;
+
+}
+.flex-container > div > a {
+  text-decoration: none;  
+  color: black;
+}
