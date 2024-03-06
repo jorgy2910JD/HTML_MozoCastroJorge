@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    border: 0.5em, double black;
+}
+.articulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+.articulo img {
+    width: 9em;
+    margin-bottom: 1em; 
+    border: 0.5em outset black;
+} 
+.articulo div {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline black;
+}
